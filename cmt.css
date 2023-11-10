@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #efb9cb;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    padding: 2px;
+}
+
+header {
+    background-color: #cc76a1;
+    ;
+    padding: 4px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.input-section {
+    flex: 0 0 45%;  /* takes up 45% of the container width */
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    font-size: 20px;
+    color: #652A0E;
+}
+.output-section {
+    flex: 0 0 50%;  /* takes up 50% of the container width */
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #652A0E;
+    font-size: 20px;
+}
+
+.input-section div, .output-section div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+h2 {
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.uploaded-content {
+    padding: 3px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uploaded-content video {
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    margin:10px;
+    border-spacing: 5px ;
+    padding: 10px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"]
+{
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+button{
+    background-color:#CC76A1;
+    color: white;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px 2px 2px 5px solid #CC76A1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px #EFB9CB;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    display: block;
+}
+
+button:hover{
+    background-color: #CC76A1;
+    box-shadow: 3px 3px 3px 6px #efb9cb;
+
+}
